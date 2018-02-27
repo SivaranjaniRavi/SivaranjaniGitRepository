@@ -53,5 +53,6 @@ public class CrossBrowserTesting {
 	@AfterTest
 	public void closingBrowser() {
 		driver.close();
+		System.out.println("Finished");
 	}
 }
